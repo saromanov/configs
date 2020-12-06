@@ -1,0 +1,19 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "ctrl+g ctrl+c",
+        "command": "git.commit"
+    },
+    {
+        "key": "ctrl+g ctrl+p",
+        "command": "git.push"
+    },
+    {
+        "key": "ctrl+d ctrl+p",
+        "command": "vscode-docker.images.prune"
+    },
+    {
+        "key": "ctrl+s ctrl+l",
+        "command": "workbench.action.splitEditorLeft"
+    }
+]
