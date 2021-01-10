@@ -81,6 +81,14 @@
 		  "}"
 		]
 	  },
+	  "If Nil": {
+		"prefix": "ifnil",
+		"body": [
+			"if $1 != nil {",
+			"  $0",
+			"}"
+		  ]
+	  },
 	  "If Error Oneliner": {
 		"prefix": "ie",
 		"body": [
@@ -98,5 +106,21 @@
 		  "}"
 		]
 	  },
+	  "type interface": {
+		"prefix": "ti",
+		"body": [
+		  "type $1 interface{",
+		  " ",
+		  "}"
+		]
+	  },
+	  "type struct": {
+		"prefix": "ts",
+		"body": [
+		  "type $1 struct{",
+		  " ",
+		  "}"
+		]
+	  }
 	
 }
